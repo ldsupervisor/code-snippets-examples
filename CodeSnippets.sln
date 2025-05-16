@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deadlocks", "Async\Deadlock
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicsDataConversions", "Examples\BasicsDataConversions\BasicsDataConversions.csproj", "{702314BB-70EE-4B56-AE18-389AED4A2050}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "SortingAlgorithms\BubbleSort\BubbleSort\BubbleSort.csproj", "{07BACD31-ECC5-4B42-9A29-90E2D593EB19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{702314BB-70EE-4B56-AE18-389AED4A2050}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{702314BB-70EE-4B56-AE18-389AED4A2050}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{702314BB-70EE-4B56-AE18-389AED4A2050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BACD31-ECC5-4B42-9A29-90E2D593EB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BACD31-ECC5-4B42-9A29-90E2D593EB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BACD31-ECC5-4B42-9A29-90E2D593EB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BACD31-ECC5-4B42-9A29-90E2D593EB19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{D6B178F1-B6A8-4694-A75A-5EE10A8862BD} = {3705D077-B18B-48D2-8BCB-5B8A5CF8D450}
 		{999ED9C7-9758-4BAB-BC72-7250BE67A527} = {26845C18-CFC1-4852-84C8-E569FCA5BEE2}
 		{702314BB-70EE-4B56-AE18-389AED4A2050} = {29CB391C-5321-4D48-A918-0944214A06A0}
+		{07BACD31-ECC5-4B42-9A29-90E2D593EB19} = {3705D077-B18B-48D2-8BCB-5B8A5CF8D450}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {172B689F-8ECB-4F85-9476-C996817152C1}

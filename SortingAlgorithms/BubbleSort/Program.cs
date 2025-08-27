@@ -1,12 +1,11 @@
-﻿int[] original = { 5, 3, 8, 4, 2, 4, 6 };
+﻿int[] data = { 5, 3, 8, 4, 2, 4, 6 };
 
-Console.WriteLine("Original Table: " + string.Join(", ", original));
+Console.WriteLine("Unsorted data " + string.Join(", ", data));
 
-int[] sorted = (int[])original.Clone();
+BubbleSort(data);
 
-BubbleSort(sorted);
+Console.WriteLine("Sorted array: " + string.Join(", ", data));
 
-Console.WriteLine("Sorted array: " + string.Join(", ", sorted));
 void BubbleSort(int[] input)
 {
     for (int i = 0; i < input.Length - 1; i++)
